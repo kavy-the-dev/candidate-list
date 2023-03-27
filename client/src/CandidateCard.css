@@ -1,0 +1,32 @@
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.candidate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(50% - 20px); /* subtracting margin from 50% to fit two cards in one line */
+}
+
+.candidate-card img {
+  max-width: 10%;
+  height: auto;
+}
+
+.candidate-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.party-name {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
